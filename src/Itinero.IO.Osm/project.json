@@ -1,9 +1,10 @@
 {
   "version": "1.0.0-*",
-  "dependencies": {
-    "Itinero": "1.0.0-*",
-    "OsmSharp": "5.0.6"
-  },
+    "dependencies": {
+        "Itinero": "1.0.0-*",
+        "NETStandard.Library": "1.6.1",
+        "OsmSharp": "6.0.0-alpha"
+    },
   "frameworks": {
     "netstandard1.6": {
       "buildOptions": {
@@ -18,10 +19,9 @@
         }
       },
       "imports": "dnxcore50",
-      "dependencies": {
-        "NETStandard.Library": "1.6.0",
-        "System.Xml.XmlSerializer": "4.0.11"
-      }
+        "dependencies": {
+            "System.Xml.XmlSerializer": "4.3.0"
+        }
     },
     "net4.0": {
       "buildOptions": {

@@ -262,7 +262,7 @@ namespace Itinero.IO.Osm.Streams
                 var index = _nodeIndex.TryGetIndex(node.Id.Value);
                 if (index != long.MaxValue)
                 { // node is a routing node, store it's coordinates.
-                    _nodeIndex.SetIndex(index, node.Latitude.Value, node.Longitude.Value);
+                    _nodeIndex.SetIndex(index, (float)node.Latitude.Value, (float)node.Longitude.Value);
                 }
             }
         }
