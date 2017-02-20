@@ -78,7 +78,7 @@ namespace Itinero.Geo
         public static Result<RouterPoint> TryResolve(this Router router, Profile[] profiles, GeoAPI.Geometries.Coordinate coordinate,
             float searchDistanceInMeter = Constants.SearchDistanceInMeter)
         {
-            return router.TryResolve(profiles, (float)coordinate.Y, (float)coordinate.X,
+            return router.TryResolve(profiles, (float)coordinate.X, (float)coordinate.Y,
                 searchDistanceInMeter);
         }
 
