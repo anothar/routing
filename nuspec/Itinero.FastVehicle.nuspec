@@ -19,8 +19,8 @@
         </dependencies>
     </metadata>
     <files>
-      <file src="src\Itinero.FastVehicle\bin\Release\portable40-net403+sl5+win8+wp8\Itinero.FastVehicle.dll" target="lib\portable-net40+sl4+win8+wp7\Itinero.FastVehicle.dll" />
-      <file src="src\Itinero.FastVehicle\bin\Release\net40\Itinero.FastVehicle.dll" target="lib\net40\Itinero.FastVehicle.dll" />
-      <file src="src\Itinero.FastVehicle\bin\Release\net45\Itinero.FastVehicle.dll" target="lib\net45\Itinero.FastVehicle.dll" />
+      <file src="..\src\Itinero.FastVehicle\bin\Release\portable40-net403+sl5+win8+wp8\Itinero.FastVehicle.dll" target="lib\portable-net40+sl4+win8+wp7\Itinero.FastVehicle.dll" />
+      <file src="..\src\Itinero.FastVehicle\bin\Release\net40\Itinero.FastVehicle.dll" target="lib\net40\Itinero.FastVehicle.dll" />
+      <file src="..\src\Itinero.FastVehicle\bin\Release\net45\Itinero.FastVehicle.dll" target="lib\net45\Itinero.FastVehicle.dll" />
     </files>
 </package>
