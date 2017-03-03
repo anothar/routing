@@ -25,6 +25,7 @@ namespace Itinero.FastVehicle
                 ["service"] = 4,
                 ["services"] = 4,
                 ["road"] = 4,
+                ["steps"]=2,
                 ["track"] = 4,
                 ["cycleway"] = 4,
                 ["path"] = 4,
