@@ -141,6 +141,8 @@ namespace Itinero.FastVehicle
                 highway = "ferry";
             }
 
+            if(String.IsNullOrEmpty(highway))
+                return Itinero.Profiles.FactorAndSpeed.NoFactor;
             //get default speed profiles
             var highway_speed = _speedProfiles.ContainsKey(highway) ? (int?)_speedProfiles[highway] : null;
 
